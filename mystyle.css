@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.navbar {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D6EFD;
+    color: white;
+    /* margin-left: 8px; */
+}
+
+.menu ul {
+    gap: 8px;
+    display: flex;
+}
+
+ul li {
+   
+
+    list-style-type: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.headingone{
+
+ display: flex;
+ justify-content: center;
+ width: 100%;
+
+}
+
+.main{
+    
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-around;
+
+}
+
+
+.boxOne{
+
+   
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    width: 290px;
+    height: 400px;
+}
+
+
+.innerbox{
+
+    padding: 8px;
+
+}
+.innerbox p{
+
+
+    line-height: 23px;
+
+}
+
+
+
+.innerbox button{
+
+ cursor: pointer;   
+ border: none;   
+ height: 37px;
+ width: 120px;
+ background-color: #0B5ED7;
+ color: white;
+ border-radius: 5px;
+
+}
+
+
+.sectionThree{
+
+display: flex;
+width: 100%;
+
+}
+
+.childOne{
+
+    width: 50%;
+}
+
+
+.childTwo{
+
+    width: 50%;
+
+}
